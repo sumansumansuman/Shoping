@@ -6,12 +6,18 @@ Shoping Website using Spring  as backend  and reactjs in frontend .
 *MAVEN  
 *SPRING BOOT  
 *SPRING MVC,SPRING JPA,SPRING SECURITY  
-*IN FRONTEND THYMLEAF IS USED ONLY FOR ADMIN  
 
-->Tools used in Frontend  
+->Tools used in Frontend (For user/customer) 
 *NODE JS  
 *REACT JS  
 *HTML,CSS  
+**Thymleaf (used only for admin in the backend repo(shoping/demo))  
+
+->Key features of project  
+*Three modes of security is used in backend  
+  .Simple username password based authentication  
+  .Oauth2 based authentication using google and facebook  
+  .jwt based authorization   
 
 
 
