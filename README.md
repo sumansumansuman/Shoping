@@ -6,6 +6,7 @@
 ->Tools used in Backend  
   *MAVEN  
   *SPRING BOOT  
+  *MY SQL,HIBERNATE
   *SPRING MVC,SPRING JPA,SPRING SECURITY  
 
 ->Tools used in Frontend (For user/customer) 
