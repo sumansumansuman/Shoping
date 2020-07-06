@@ -1,7 +1,7 @@
 # Shoping Web Application
+  Shoping Website using Spring  as backend  and reactjs in frontend .
 
 <pre>
-  Shoping Website using Spring  as backend  and reactjs in frontend .
 
 ->Tools used in Backend  
   *MAVEN  
