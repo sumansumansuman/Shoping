@@ -1,0 +1,167 @@
+.product{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-gap: 10px;
+    background-color:rgba(245, 245, 246, 0.3);
+}
+
+.imag{
+    margin: 20px 0;
+}
+
+.details{
+    margin:40px  ;
+    color: #282c3f;
+    font-family:  Whitney,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif; 
+}
+
+.details>h1{
+    font-size: 24px;
+    font-weight:700;
+    letter-spacing: 4px;
+}
+.details>h4{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.size{
+     height: 40px;
+     cursor: pointer;
+     width: 40px;
+     margin: 0px 10px;
+     background-color:white;
+     padding-top: 10px;
+     border-radius: 50%;
+     text-align: center;
+     justify-content: center;
+     border: 1px solid rgba(0, 0, 0, 0.3);
+     display: inline-block;     
+     font-size: 20px;
+     font-weight: 600;
+}
+
+.size:hover{
+    
+    border-color: #ff3f6c;
+}
+
+ .clicked{
+    color: #ff3f6c;
+    border-color: #ff3f6c;
+}
+
+
+.details>h3{
+    font-size: 22px;
+    font-weight: 300;
+    margin: 5px 0;
+    letter-spacing: 2px;
+}
+
+.details>span{
+    margin: 20px 20px 50px 0px;
+    font-size: 22px;
+}
+
+
+.bag{
+    cursor: pointer;
+    display:block;
+    background-color: #ff3f6c;
+    width: 40%;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 11px;
+    margin: 30px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border: none;
+   }
+
+
+   .wish{
+       float: right;
+       margin-right: 60px;
+   }
+
+   .heart {
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+
+    transform: rotate(135deg);
+    transition: all .3s;
+}
+
+.heart::before {
+    content: "";
+    display:inline-block;
+    position: relative;
+    right: 25px;
+
+    width: 50px;
+    height: 50px;
+
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border-radius: 50%;
+
+    background-color: white;
+
+    transition: all .3s;
+}
+
+.heart::after {
+    content: "";
+
+    display: inline-block;
+    position: relative;
+    bottom: 25px;
+
+    width: 50px;
+    height: 50px;
+
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border-radius: 50%;
+
+    background-color: white;
+
+    transition: all .3s;
+}
+
+ .checked {
+    background-color:red;
+    opacity: 0.5;
+}
+
+.checked::after{
+    background-color:red;
+}
+
+.checked::before{
+    background-color:red;
+}
+
+.error{
+    color: #ff2365;  
+    font-size: 12px;
+    padding: 5px;
+}
+

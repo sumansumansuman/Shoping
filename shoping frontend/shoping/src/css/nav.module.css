@@ -1,0 +1,276 @@
+.main{
+  margin-bottom: 20px;
+}
+
+.nav{
+    padding:20px 10px 0px 0px;
+    background-color: transparent;
+    position: relative;
+    
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    padding: 20px 70px;
+    grid-gap: 50px;
+    justify-content: center;
+  }
+
+  .hov:hover{
+    border-bottom: 2px solid red;
+  }
+  
+  .gridContainer2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 80px;
+    padding-bottom: 4px;
+    
+  }
+  .gridContainer3{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    justify-content: center;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin:20px;
+    transition: 0.3s;
+    padding-bottom: 5px;
+    border-radius: 5px; /* 5px rounded corners */
+  }
+
+  .cardText{
+    padding: 0 10px;
+    color: #282c3f;
+    font-family:  Whitney,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  }
+  
+  .cardText>h4{
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 4px;
+  }
+
+  .cardText>h6{
+    font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 3px;
+  }
+
+  .cardText>span{
+    font-size: 12px;
+    display: inline;
+    padding-right: 10px;
+  }
+  
+  .cardTextLogin{
+    display: block;
+    text-decoration: none;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 1px;
+    margin: 10px 30px ;
+    width: 60%;
+    
+    border: 1px solid rgba(0,0,0,0.1);
+    font-size: 20px ;
+    color: #ff3f6c ;
+    justify-content: center;
+    text-align: center;
+   }
+
+   .cardTextLogin:hover{
+    border: 1px solid #ff3f6c;
+   }
+
+
+  .gridContainer1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    padding: 20px 40px;
+    justify-content: center;
+  }
+
+.navItem{
+    float: left;
+    margin:0 auto;
+    padding:5px 20px ;
+}
+
+
+.input{
+    border:none;
+    outline: none;
+    padding: 0 15px;
+    width: 13rem;
+    height: 2rem;
+    background-color:#f5f5f6;
+  
+}
+
+.navForm{
+    background-color:#f5f5f6;
+    padding: 0 10px;
+    border-radius: 7px;
+}
+
+.homeP{
+    text-align: left;
+    padding: 10px 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.links{
+    text-decoration: none;
+    color: #282c3f;
+    font-size: 14px;
+    font-weight: 700;
+    font-family:  Whitney,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+
+
+
+.navLogo{
+    float: left;
+    margin: 0 auto;
+   padding: 0 20px;
+   
+}
+
+.heart{
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  float: right;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+
+  background-color: white;
+  cursor: pointer;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+
+  transform: rotate(135deg);
+  transition: all .3s;
+}
+
+.heart::before {
+  content: "";
+
+  display: block;
+  position: relative;
+  right: 10px;
+
+  width: 20px;
+  height: 20px;
+
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border-radius: 50%;
+
+  background-color: white;
+
+  transition: all .3s;
+}
+
+.heart::after {
+  content: "";
+
+  display: block;
+  position: relative;
+  bottom: 10px;
+
+  width: 20px;
+  height: 20px;
+
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border-radius: 50%;
+
+  background-color: white;
+
+  transition: all .3s;
+}
+
+.heart.checked{
+  background-color:rgba(255,63,108,.8);
+}
+
+.heart.checked::before {
+  background-color:rgba(255,63,108,.8);
+}
+
+.heart.checked::after {
+  background-color:rgba(255,63,108,.8);
+}
+
+
+.menuCard{
+  position: absolute;
+  padding: 5px 20px;
+  overflow: hidden;
+  background-color: white;
+  color: #282c3f;
+  font-family:  Whitney,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  z-index: 1;
+  width: 28%;
+  left:65%;
+  transition: 0.3s;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+}
+
+.menuCard h4{
+  font-size: 16px;
+  font-weight: 600;
+  padding-bottom: 3px;
+}
+
+.menuCard span{
+  font-size: 12px;
+  font-weight: 350;
+  padding-bottom: 5px;
+}
+
+.menuCard div{
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  padding-top: 5px;
+}
+
+.menuCardLink{
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 2px;
+  color: #282c3f;
+  font-family:  Whitney,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+ 
+}
+
+.menuCardLink:hover{
+  font-weight: 700;
+}
+
+.wDiv{
+  z-index: 1;
+  bottom: 20%;
+  padding-right: 15px;
+  position: relative;
+}
+
+
+.cart{
+  display: inline;
+}
+
+.field1:hover{
+  border-bottom: 2px solid #ff3f6c;
+}

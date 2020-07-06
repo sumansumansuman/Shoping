@@ -1,0 +1,11 @@
+ spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          facebook:
+            client-id: 2763449050444810
+            client-secret:  8bdc6274e009f39e52e02474cd9e4150
+          google:
+            client-id: 86267066782-knvhcqe73q6ii6f3trab8kvtkv1lu48e.apps.googleusercontent.com
+            client-secret: MRXl0gF7XkejNik5keJyTUYc  

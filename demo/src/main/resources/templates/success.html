@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}">
+</head>
+<body>
+
+<h1>The display Property:success</h1>
+
+<form th:action="@{/server/make/payment}" th:object="${form}" method="post">
+<input type="text" th:field="*{payerId}" th:value="${form.getPayerId()}">
+<input type="text" th:field="*{paymentId}" th:value="${form.getPaymentId()}">
+<button type="submit">submit</button>
+</form>
+
+
+	
+</body>
+</html>

@@ -1,0 +1,133 @@
+.cart{
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+    grid-gap: 100px;
+    margin: 50px;
+    color: #282c3f;
+    font-family:  Whitney,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+
+.item{
+    display: grid;
+    grid-template-columns: 1fr 4fr ;
+    grid-gap: 20px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.image{
+    padding:0 5px 5px 5px;
+    padding-bottom: 20px;
+}
+
+.outer{
+    height: 40vh;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin:20px;
+    transition: 0.3s;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.btn{
+    padding: 5px 30px;
+    color: #696B79;
+    font-weight: 300;
+}
+
+.btn>button{
+    outline: none;
+    cursor: pointer;
+    color: inherit;
+    font-weight: 600;
+    font-size: 13px;
+    background-color: white;
+    border: none;
+}
+
+.btn>button:hover{
+    font-weight:700 ;
+}
+
+.itemText{
+    margin-bottom: 50px;
+}
+
+.itemText>h3{
+  font-size: 16px;
+}
+
+.itemText>p{
+    padding-bottom: 5px;
+}
+
+.itemText>span{
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+.dropdown>select{
+    margin-right: 100px;
+    border: none;
+    padding: 2px;
+    font-weight: 700;
+    font-size: 14px;
+    background-color: rgba(105, 107, 121, 0.2);
+    outline: none;
+}
+
+.bill{
+    margin:30px;
+}
+
+.bill>h1{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 15px 0;
+    padding: 5px 0;
+    border-top: 1px solid rgb(0, 0, 0,0.5);
+}
+
+.bill>h1>span{
+    font-size: 16px;
+    float: right;
+    font-weight: 600;
+}
+
+.bill>h2{
+    font-size: 16px;
+    font-weight: 500px;
+    color: #535766;
+    margin-bottom:15px;
+}
+
+.bill>h3{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.bill>h3>span{
+    
+    float: right;
+}
+
+
+.cardTextLogin{
+    text-decoration: none;
+    border: none;
+    font-weight: 300;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px 55px;
+    font-size: 14px;
+    width: 60%;
+    color:white;
+    background-color: #ff3f6c ;
+    justify-content: center;
+    text-align: center;
+   }
+
+   .cardTextLogin:hover{
+       transition: 0.3s;
+    border: 1px solid #7d879ba1;
+   }

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}">
+</head>
+<body>
+
+<h1>The display Property:</h1>
+
+	<div  class="grid-container">
+		<div th:each="p:${products}" class="grid-item">
+			<div class="card">
+				<img th:src="@{'/images/'+${p.gender}+'/'+${p.type}+'/'+${p.imageId}+'.jpg'}"  style="width: 100%">
+				<div class="container">
+					<h3 th:text="${p.price}"class="price"></h3>
+					<h3 th:text="${p.discount+' %'}" class="dicount"></h3>
+				   <p th:text="${p.details}" class="details" ></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>
