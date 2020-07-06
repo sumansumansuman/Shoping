@@ -1,5 +1,6 @@
 # Shoping
 
+<pre>
 Shoping Website using Spring  as backend  and reactjs in frontend .
 
 ->Tools used in Backend  
@@ -19,7 +20,7 @@ Shoping Website using Spring  as backend  and reactjs in frontend .
   .Oauth2 based authentication using google and facebook  
   .jwt based authorization   
 
-
+</pre>
 
 
 
